@@ -40,6 +40,7 @@ class UserController extends Controller
             'name.required' => 'El campo nombre es obligatorio.',
             'name.min' => 'El nombre debe tener al menos :min caracteres.',
             'name.max' => 'El nombre no puede tener al menos :max caracteres.',
+            
             'email.required' => 'El correo ya está registrado.',
             'email.unique' => 'El correo ya está registrado.',
             'email.email' => 'El correo no tiene el formato correcto.',
